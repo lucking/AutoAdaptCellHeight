@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="75" id="KGk-i7-Jjw" customClass="ServeCCCell">
+            <rect key="frame" x="0.0" y="0.0" width="332" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="332" height="74.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="公积金" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRZ-EG-wqk">
+                        <rect key="frame" x="18" y="20" width="74" height="30"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="74" id="61U-r8-RMH"/>
+                            <constraint firstAttribute="height" constant="30" id="iEv-0t-5eK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="贷款" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hwi-fU-UPv">
+                        <rect key="frame" x="102" y="20" width="55" height="30"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="8CY-pu-BB3"/>
+                            <constraint firstAttribute="width" constant="55" id="Tut-ay-Ms1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="公积金提取" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZMh-hv-HT6">
+                        <rect key="frame" x="167" y="20" width="104" height="30"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="104" id="22c-9T-y9k"/>
+                            <constraint firstAttribute="height" constant="30" id="wSS-bY-JFq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Hwi-fU-UPv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="12" id="5Vz-E6-Fcd"/>
+                    <constraint firstItem="Hwi-fU-UPv" firstAttribute="leading" secondItem="JRZ-EG-wqk" secondAttribute="trailing" constant="10" id="7xT-nJ-JOI"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ZMh-hv-HT6" secondAttribute="bottom" constant="12" id="G8L-Qz-FHO"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Hwi-fU-UPv" secondAttribute="bottom" constant="12" id="KIR-V9-l6a"/>
+                    <constraint firstItem="JRZ-EG-wqk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="Q5p-aG-uis"/>
+                    <constraint firstItem="ZMh-hv-HT6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="12" id="SJ9-Ni-WRp"/>
+                    <constraint firstItem="JRZ-EG-wqk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="12" id="kjE-4p-vVJ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="JRZ-EG-wqk" secondAttribute="bottom" constant="12" id="rJN-sv-I8g"/>
+                    <constraint firstItem="ZMh-hv-HT6" firstAttribute="leading" secondItem="Hwi-fU-UPv" secondAttribute="trailing" constant="10" id="t7B-ad-6md"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-75" y="18.5"/>
+        </tableViewCell>
+    </objects>
+</document>
