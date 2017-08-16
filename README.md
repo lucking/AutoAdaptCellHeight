@@ -1,0 +1,2 @@
+# AutoAdaptCellHeight
+关于UITableView的自动布局，cell自适应高度，cellxib中的各种约束，cell中图片的放大缩小，沙盒缓存cell高度等
